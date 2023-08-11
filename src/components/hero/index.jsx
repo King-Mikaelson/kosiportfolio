@@ -3,10 +3,10 @@ function Hero() {
   return (
     <main className=" w-full px-4 lg:pt-24 pt-12 lg:px-6 xl:px-28">
       <div className="flex flex-col md:grid grid-cols-2 md:gap-40 w-full relative ">
-      <div className="hidden md:block absolute top-0 right-2/3 left-20   z-0 opacity-25 hover:opacity-100">
+      <div className="block absolute top-0 left-16 md:right-2/3 md:left-20   z-0 opacity-50 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
-        </div>
+      </div>
         <div className="flex gap-8 flex-col self-center w-full relative">
         <div className="flex gap-2 flex-col">
         <h1 className="text-[#FFF] font-normal font-nunitoSans md:text-2xl text-base">Hi, I am a </h1>
@@ -19,11 +19,11 @@ function Hero() {
             <p className="font-nunitoSans font-semibold">Learn more about me and what I do </p>
             </button>
         </div>
-        <div className="hidden md:block absolute bottom-6 -right-24 z-0 opacity-25 hover:opacity-100 lg:w-[25ch]">
+        <div className=" absolute bottom-16 md:bottom-6 md:left-auto left-20 md:-right-24 z-0 opacity-25 hover:opacity-100 lg:w-[25ch]">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         def __init__(self, input_file, cache_index=True): if isinstance(input_file, basestring): self.source_file = open(input_file,'rb') filename = input_file</p>
         </div>
-        <div className="hidden md:block absolute xl:-bottom-24 lg:-bottom-12 right-1/2 z-0 opacity-25 hover:opacity-100 lg:w-[25ch]">
+        <div className="absolute -bottom-24 -left-2 xl:-bottom-24 lg:-bottom-12 md:right-1/2 z-0 opacity-25 hover:opacity-100 lg:w-[25ch]">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         def __init__(self, input_file, cache_index=True): if isinstance(input_file, basestring): self.source_file = open(input_file,'rb') filename = input_file</p>
         </div>
@@ -32,9 +32,9 @@ function Hero() {
         <div className="hidden md:block absolute top-24 right-2/3  lg:w-[30ch] z-0 opacity-25 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">def __init__(self, input_file, cache_index=True):		if isinstance(input_file, basestring):			self.source_file = open(input_file,'rb')			filename = input_file</p>
         </div>
-         <Image src="/Kosihero.png" alt="hero" width={900} height={900} className="max-w-full z-2" />
+         <Image src="/Kosihero.png" alt="hero" width={900} height={900} className="max-w-full " />
         </div>
-        <div className="hidden md:block absolute bottom-4 right-1/2 z-0 opacity-25 hover:opacity-100 lg:w-[25ch]">
+        <div className=" absolute bottom-4 left-20 md:left-auto md:bottom-4 md:right-1/2 z-0 opacity-50 hover:opacity-100 lg:w-[25ch]">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         def __init__(self, input_file, cache_index=True): if isinstance(input_file, basestring): self.source_file = open(input_file,'rb') filename = input_file</p>
         </div>

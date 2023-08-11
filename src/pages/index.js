@@ -5,8 +5,8 @@ import NavBar from '@/components/NavBar'
 import { useState } from 'react'
 import Footer from '@/components/footer'
 import AboutMe from '@/components/aboutMe'
-import Animation from '@/components/animation'
-import Animation2 from '@/components/animation/Animation2'
+import Animation from '@/components/animation/index'
+import Animation2 from '@/components/animation'
 
 const inter = Inter({ subsets: ['latin'] })
 const nunito = Nunito(
@@ -29,7 +29,7 @@ export default function Home() {
     <Hero/>
     </div>
     {/* <Animation/> */}
-    <Animation2/>
+    <Animation/>
     <AboutMe/>
     <Footer/>
   </main>
