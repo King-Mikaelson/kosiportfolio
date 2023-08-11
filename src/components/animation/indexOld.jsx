@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import styles from "./Animation.module.css";
 import Logo from "../../../public/logo.png";
 import frame from "../../../public/frame.png";
 import Image from "next/image";

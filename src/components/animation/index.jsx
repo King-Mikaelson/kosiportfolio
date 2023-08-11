@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import styles from "./Animation.module.css";
 import Logo from "../../../public/logo.png";
 import frame from "../../../public/frame.png";
 import Image from "next/image";
@@ -297,10 +296,10 @@ function Animation() {
 
             <div className="relative flex flex-col font-sans text-white text-base gap-16">
 
-            {/* <div className=" absolute -top-10 left-12  px-10  z-0 opacity-25 hover:opacity-100">
+            <div className=" absolute -top-10 left-12   z-0 opacity-40 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
-          </div> */}
+          </div>
 
             <div className="flex flex-col self-start items-center">
               <Image src={frame} alt="frame" className="w-[6.375rem] h-[6.375rem]" />
@@ -312,10 +311,10 @@ function Animation() {
                 <div className="relative flex items-center py-1 gap-2">
                 <TbCodeCircle2 size={15} className="inline-block  text-[#ADADAE]" />
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Golang, python, java</p>
-                {/* <div className=" absolute -top-6 px-10 left-10 z-0 opacity-25 hover:opacity-100">
+                <div className=" absolute -top-6  left-10 z-0 opacity-40 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
-        </div> */}
+        </div>
                 </div>
             </div>
 
@@ -330,10 +329,10 @@ function Animation() {
                 <TbCodeCircle2 size={15} className="inline-block  text-[#ADADAE]" />
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Golang, python, java</p>
                 </div>
-                {/* <div className=" absolute -bottom-12 px-10 right-10 z-0 opacity-25 hover:opacity-100">
+                <div className=" absolute -bottom-12  right-10 z-0 opacity-40 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
-        </div> */}
+        </div>
             </div>
 
 
@@ -348,10 +347,10 @@ function Animation() {
                 <TbCodeCircle2 size={15} className="inline-block  text-[#ADADAE]" />
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Golang, python, java</p>
                 </div>
-                {/* <div className="absolute -bottom-20 left-16  ml-auto px-10  z-0 opacity-25 hover:opacity-100">
+                <div className="absolute -bottom-20 left-16  ml-auto   z-0 opacity-40 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
         this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
-        </div> */}
+        </div>
             </div>
 
             <div className="flex flex-col  self-end items-center">
