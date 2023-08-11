@@ -281,7 +281,7 @@ function Animation2() {
   </main>
 
 
-      <section className=" block lg:hidden bg-[url('/projects.png')] bg-center bg-cover bg-no-repeat">
+      <section className="relative block lg:hidden bg-[url('/projects.png')] bg-center bg-cover bg-no-repeat">
         <div className="w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-32 px-4 relative">
           <Image
             src={Logo}
@@ -295,7 +295,13 @@ function Animation2() {
           </h1>
 
 
-            <div className=" flex flex-col font-sans text-white text-base">
+            <div className="relative flex flex-col font-sans text-white text-base gap-16">
+
+            <div className=" absolute -top-10 left-12  px-10  z-0 opacity-25 hover:opacity-100">
+        <p className="text-[0.75rem] text-[#A59F9F] font-serif">
+        this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
+          </div>
+
             <div className="flex flex-col self-start items-center">
               <Image src={frame} alt="frame" className="w-[6.375rem] h-[6.375rem]" />
                 <p className="font-semibold text-sm font-sans text-[#FFF]">The Placeholder Project</p>
@@ -303,14 +309,17 @@ function Animation2() {
                 <IoPersonCircle size={15} className="inline-block  text-[#ADADAE]" /> 
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Backend engineer</p>
                 </div>
-                <div className="flex items-center py-1 gap-2">
+                <div className="relative flex items-center py-1 gap-2">
                 <TbCodeCircle2 size={15} className="inline-block  text-[#ADADAE]" />
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Golang, python, java</p>
-
+                <div className=" absolute -top-6 px-10 left-10 z-0 opacity-25 hover:opacity-100">
+        <p className="text-[0.75rem] text-[#A59F9F] font-serif">
+        this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
+        </div>
                 </div>
             </div>
 
-            <div className="flex flex-col self-end items-center">
+            <div className="relative flex flex-col self-end items-center">
               <Image src={frame} alt="frame" className="w-[6.375rem] h-[6.375rem]" />
                 <p className="font-semibold text-sm font-sans text-[#FFF]">The Placeholder Project</p>
                 <div className="flex items-center py-1 gap-2">
@@ -320,12 +329,15 @@ function Animation2() {
                 <div className="flex items-center py-1 gap-2">
                 <TbCodeCircle2 size={15} className="inline-block  text-[#ADADAE]" />
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Golang, python, java</p>
-
                 </div>
+                <div className=" absolute -bottom-6 px-10 right-10 z-0 opacity-25 hover:opacity-100">
+        <p className="text-[0.75rem] text-[#A59F9F] font-serif">
+        this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
+        </div>
             </div>
 
 
-            <div className="flex flex-col items-center self-start">
+            <div className="relative flex flex-col items-center self-start">
               <Image src={frame} alt="frame" className="w-[6.375rem] h-[6.375rem]" />
                 <p className="font-semibold text-sm font-sans text-[#FFF]">The Placeholder Project</p>
                 <div className="flex items-center py-1 gap-2">
@@ -335,8 +347,11 @@ function Animation2() {
                 <div className="flex items-center py-1 gap-2">
                 <TbCodeCircle2 size={15} className="inline-block  text-[#ADADAE]" />
                 <p className="font-light text-sm font-sans text-[#ADADAE]">Golang, python, java</p>
-
                 </div>
+                <div className="absolute -bottom-20 left-16  ml-auto px-10  z-0 opacity-25 hover:opacity-100">
+        <p className="text-[0.75rem] text-[#A59F9F] font-serif">
+        this.onreadystatechange = function () console.log( "XMLHttpRequest.onreadystatechange" ); console.log( this )</p>
+        </div>
             </div>
 
             <div className="flex flex-col  self-end items-center">
