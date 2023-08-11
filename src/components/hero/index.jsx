@@ -1,7 +1,8 @@
 import Image from "next/image"
 function Hero() {
   return (
-    <main id="home" className=" w-full px-4 lg:pt-24 pt-12 lg:px-6 xl:px-28 backgroundPic " >
+    <main id="home" className=" w-full px-4 lg:pt-24 pt-12 lg:px-6 xl:px-28 bg-[url('/HeroSection.png')] 
+    md:bg-[url('/backgroundPic.png')] bg-cover bg-no-repeat bg-center" >
       <div className="flex flex-col md:grid grid-cols-2 md:gap-40 w-full relative ">
       <div className="block absolute top-0 left-16 md:right-2/3 md:left-20   z-0 opacity-50 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">

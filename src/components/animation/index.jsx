@@ -284,7 +284,7 @@ function Animation() {
   </main>
 
 
-      <section id="projects" className="relative block lg:hidden bg-[url('/projects.png')] bg-center bg-cover bg-no-repeat">
+      <section id="projects" className="relative block lg:hidden bg-[url('/Projects(1).png')] bg-center bg-cover bg-no-repeat">
         <div className="w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-32 px-4 relative">
           <Image
             src={Logo}

@@ -9,7 +9,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 function Footer() {
   return (
-    <main id="contact" className="z-[20] mt-10 mb-auto backgroundPic2 text-white py-10 lg:py-16 lg:px-6 xl:px-36 px-4 mx-0 w-full self-end  border-t lg:border-t-0">
+    <main id="contact" className="z-[20] mt-10 mb-auto bg-[url('/Footer(1).png')] md:bg-[url('/Footer.png')] bg-cover bg-no-repeat bg-center  text-white py-10 lg:py-16 lg:px-6 xl:px-36 px-4 mx-0 w-full self-end  border-t lg:border-t-0">
       <Image
             src={Logo}
             alt="logo"
