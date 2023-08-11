@@ -1,7 +1,7 @@
 import Image from "next/image"
 function Hero() {
   return (
-    <main className=" w-full px-4 lg:pt-24 pt-12 lg:px-6 xl:px-28">
+    <main id="home" className=" w-full px-4 lg:pt-24 pt-12 lg:px-6 xl:px-28 backgroundPic " >
       <div className="flex flex-col md:grid grid-cols-2 md:gap-40 w-full relative ">
       <div className="block absolute top-0 left-16 md:right-2/3 md:left-20   z-0 opacity-50 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
@@ -28,11 +28,11 @@ function Hero() {
         def __init__(self, input_file, cache_index=True): if isinstance(input_file, basestring): self.source_file = open(input_file,'rb') filename = input_file</p>
         </div>
         </div>
-        <div className=" w-full relative z-20">
+        <div className=" w-full z-20">
         <div className="hidden md:block absolute top-24 right-2/3  lg:w-[30ch] z-0 opacity-25 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">def __init__(self, input_file, cache_index=True):		if isinstance(input_file, basestring):			self.source_file = open(input_file,'rb')			filename = input_file</p>
         </div>
-         <Image src="/Kosihero.png" alt="hero" width={900} height={900} className="max-w-full " />
+         <Image src="/Kosihero.png" alt="hero" width={900} height={900} className="max-w-full lg:w-[34.55031rem] lg:h-[46.25rem] 2xl:w-full  2xl:h-full" />
         </div>
         <div className=" absolute bottom-4 left-20 md:left-auto md:bottom-4 md:right-1/2 z-0 opacity-50 hover:opacity-100 lg:w-[25ch]">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">

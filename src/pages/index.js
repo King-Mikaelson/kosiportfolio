@@ -23,12 +23,9 @@ export default function Home() {
 
   return (
     <main
-    className={`w-full   ${nunito.className}`}>
-    <div className='backgroundPic h-full'>
+    className={`w-full  h-[100%]  ${nunito.className}`}>
     <NavBar open={open} setOpen={setOpen} />
     <Hero/>
-    </div>
-    {/* <Animation/> */}
     <Animation/>
     <AboutMe/>
     <Footer/>

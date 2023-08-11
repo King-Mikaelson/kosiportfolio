@@ -2,7 +2,7 @@ import Image from "next/image";
 import kosiImg from "../../../public/kosiImg.png";
 function AboutMe() {
   return (
-    <main className=" w-full py-10 lg:py-16 lg:px-6 xl:px-36 px-4 flex flex-col gap-10 md:gap-20">
+    <main id="about" className=" w-full py-10 lg:py-16 lg:px-6 xl:px-36 px-4 flex flex-col gap-10 md:gap-20">
       <div className="flex flex-col lg:flex-row justify-center items-center w-full my-0 mx-auto">
         <div className="w-full hidden md:flex items-center">
           <Image src={kosiImg} alt="kosi" className="object-contain" />

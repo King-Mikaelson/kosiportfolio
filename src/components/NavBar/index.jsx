@@ -24,10 +24,10 @@ function NavBar({ open, setOpen }) {
 
 
   const navigation = [
-    { name: "Home", href: "/", current: true, path:"/" },
-    { name: "Projects", href: "projects", current: false, path:"/projects" },
-    { name: "About me", href: "about", current: false, path:"/about" },
-    { name: "Contact me", href: "contact", current: false, path:"/contact" },
+    { name: "Home", href: "#home", current: true, path:"/" },
+    { name: "Projects", href: "#projects", current: false, path:"/projects" },
+    { name: "About me", href: "#about", current: false, path:"/about" },
+    { name: "Contact me", href: "#contact", current: false, path:"/contact" },
   ];
 
   const pathName = usePathname();

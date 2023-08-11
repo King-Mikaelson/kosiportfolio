@@ -96,6 +96,7 @@ function Animation() {
 
 
 // UseEffect for 3D tilt Effect
+
   useEffect(() => {
     // Add JavaScript to update the --tiltX and --tiltY custom properties based on mouse movement
     const container = document.querySelector(".tilted_container");
@@ -115,11 +116,14 @@ function Animation() {
       container.style.setProperty("--tiltX", `${tiltX}deg`);
       container.style.setProperty("--tiltY", `${tiltY}deg`);
     });
+
+    // return () => window.removeEventListener("mousemove")
+
   }, []);
 
   return (
   <>
-   <main className="container hidden lg:flex">
+   <main id="projects" className="container hidden lg:flex">
       <section className="tilted_container">
         <div className="tilted_element w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-32 px-4 relative">
           <Image
@@ -280,7 +284,7 @@ function Animation() {
   </main>
 
 
-      <section className="relative block lg:hidden bg-[url('/projects.png')] bg-center bg-cover bg-no-repeat">
+      <section id="projects" className="relative block lg:hidden bg-[url('/projects.png')] bg-center bg-cover bg-no-repeat">
         <div className="w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-32 px-4 relative">
           <Image
             src={Logo}
