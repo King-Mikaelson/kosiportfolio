@@ -125,7 +125,7 @@ function Animation() {
   <>
    <main id="projects" className="container hidden lg:flex">
       <section className="tilted_container">
-        <div className="tilted_element w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-32 px-4 relative">
+        <div className="tilted_element w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-28 px-4 relative">
           <Image
             src={Logo}
             alt="logo"

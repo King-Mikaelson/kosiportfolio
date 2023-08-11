@@ -110,7 +110,7 @@ function NavBar({ open, setOpen }) {
           </ul>
         </div> */}
 
-      <div className="md:flex flex items-center  justify-between  py-4 px-2  lg:px-6 xl:px-28 w-full  relative">
+      <div className="md:flex flex items-center  justify-between  py-4 px-2  lg:px-6 xl:px-[6.5rem] w-full  relative">
       <div className="cursor-pointer flex justify-between items-center px-2">
           <Image
             src={Logo}
@@ -129,8 +129,8 @@ function NavBar({ open, setOpen }) {
               <Link
                 className={
                   link.path === pathName
-                    ? "text-[#D9D9D9] text-base font-sans font-bold underline underline-offset-8"
-                    : "text-[#D9D9D9] text-base font-sans font-medium hover:underline hover:underline-offset-8"
+                    ? "text-[#D9D9D9] text-base font-sans font-bold underline underline-offset-1"
+                    : "text-[#D9D9D9] text-base font-sans font-medium hover:underline hover:underline-offset-2"
                 }
                 href={link.href}
               >

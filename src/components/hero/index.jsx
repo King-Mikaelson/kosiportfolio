@@ -29,7 +29,7 @@ function Hero() {
         </div>
         </div>
         <div className=" w-full z-20">
-        <div className="hidden md:block absolute top-24 right-2/3  lg:w-[30ch] z-0 opacity-25 hover:opacity-100">
+        <div className="hidden md:block absolute top-24 right-[30%]  lg:w-[30ch] z-0 opacity-25 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">def __init__(self, input_file, cache_index=True):		if isinstance(input_file, basestring):			self.source_file = open(input_file,'rb')			filename = input_file</p>
         </div>
          <Image src="/Kosihero.png" alt="hero" width={900} height={900} className="max-w-full lg:w-[34.55031rem] lg:h-[46.25rem] 2xl:w-full  2xl:h-full" />
