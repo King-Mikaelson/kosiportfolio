@@ -31,9 +31,9 @@ function NavBar({ open, setOpen }) {
   ];
 
   const pathName = usePathname();
-  console.log(pathName)
+  // console.log(pathName)
   return (
-    <nav className=" w-full fixed top-0 left-0 z-30">
+    <nav className=" w-full fixed top-0 left-0 z-50">
         <div
           className={
             open
@@ -45,7 +45,7 @@ function NavBar({ open, setOpen }) {
             <Image
               src={mobileLogo}
               alt="logo"
-              className=" w-[7rem] h-[100%] object-contain"
+              className="md:w-[7rem] md:h-[100%] object-contain w-[3.75rem] h-[1.5rem]"
             />
             <XMarkIcon
               onClick={() => {
@@ -110,19 +110,19 @@ function NavBar({ open, setOpen }) {
           </ul>
         </div> */}
 
-      <div className="md:flex flex items-center  justify-between  py-4 px-4  lg:px-28 xl:px-28 w-full  relative">
+      <div className="md:flex flex items-center  justify-between  py-4 px-2  lg:px-6 xl:px-28 w-full  relative">
+      <div className="cursor-pointer flex justify-between items-center px-2">
+          <Image
+            src={Logo}
+            alt="logo"
+            className=" md:w-[6.875rem] md:h-[2.75rem] w-[3.75rem] h-[1.5rem]"
+          />
+        </div>
         <Bars3Icon
           onClick={() => setOpen((prevValue) => !prevValue)}
           className="md:hidden block h-6 w-6 text-white"
           aria-hidden="true"
         />
-        <div className="cursor-pointer flex justify-between items-center px-2">
-          <Image
-            src={Logo}
-            alt="logo"
-            className=" w-[ 6.875rem] h-[2.75re"
-          />
-        </div>
         <ul className="hidden md:flex md:items-center md:justify-center md:static md:w-auto  absolute top-0 right-0 text-white w-full">
           {navigation.map((link) => (
             <li key={link.name} className="md:ml-8 text-2xl md:my-0 my-7">

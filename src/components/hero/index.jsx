@@ -1,7 +1,7 @@
 import Image from "next/image"
 function Hero() {
   return (
-    <main className=" w-full px-4 lg:pt-24 pt-12 lg:px-28 xl:px-28">
+    <main className=" w-full px-4 lg:pt-24 pt-12 lg:px-6 xl:px-28">
       <div className="flex flex-col md:grid grid-cols-2 md:gap-40 w-full relative ">
       <div className="hidden md:block absolute top-0 right-2/3 left-20   z-0 opacity-25 hover:opacity-100">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif">
@@ -9,14 +9,14 @@ function Hero() {
         </div>
         <div className="flex gap-8 flex-col self-center w-full relative">
         <div className="flex gap-2 flex-col">
-        <h1 className="text-[#FFF] font-light lg:text-2xl text-base">Hi, I am a </h1>
-        <p className="text-[#FFF]  font-bold text-[rgba(254,254,254,1.00)] text-2xl lg:text-5xl  xl:text-[4.1rem]  whitespace-nowrap">PLATFORM ENGINEER.</p>
-        <p className="text-[#FFF] font-light lg:text-2xl text-base lg:w-[35ch] xl:w-[50ch]">I build and merge standard system infrastructure and tech solutions for engineering teams to work optimally.</p>
+        <h1 className="text-[#FFF] font-normal font-nunitoSans md:text-2xl text-base">Hi, I am a </h1>
+        <p className="text-[#FFF] font-nunitoSans md:z-30  font-extrabold text-[rgba(254,254,254,1.00)] text-[2rem] lg:text-5xl  xl:text-[4.625rem]  md:whitespace-nowrap w-[8ch] md:w-full">PLATFORM ENGINEER.</p>
+        <p className="text-[#FFF] font-nunitoSans text-xs font-light md:font-normal lg:text-2xl md:text-base lg:w-[35ch] xl:w-[50ch] w-[30ch]">I build and merge standard system infrastructure and tech solutions for engineering teams to work optimally.</p>
         </div>
         
-        <div className="text-[rgba(254,254,254,1.00)] font-mediun lg:text-2xl text-base border border-solid rounded border-[rgba(254,254,254,1.00)] py-3 w-fit px-6 whitespace-nowrap">
+        <div className="text-[rgba(254,254,254,1.00)] lg:text-2xl text-sm md:text-base border border-solid rounded border-[rgba(254,254,254,1.00)] py-3 w-fit px-6 whitespace-nowrap">
             <button>
-            <p>Learn more about me and what I do </p>
+            <p className="font-nunitoSans font-semibold">Learn more about me and what I do </p>
             </button>
         </div>
         <div className="hidden md:block absolute bottom-6 -right-24 z-0 opacity-25 hover:opacity-100 lg:w-[25ch]">

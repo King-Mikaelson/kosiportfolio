@@ -5,6 +5,8 @@ import NavBar from '@/components/NavBar'
 import { useState } from 'react'
 import Footer from '@/components/footer'
 import AboutMe from '@/components/aboutMe'
+import Animation from '@/components/animation'
+import Animation2 from '@/components/animation/Animation2'
 
 const inter = Inter({ subsets: ['latin'] })
 const nunito = Nunito(
@@ -22,10 +24,12 @@ export default function Home() {
   return (
     <main
     className={`w-full   ${nunito.className}`}>
-    <div className='backgroundPic'>
+    <div className='backgroundPic h-full'>
     <NavBar open={open} setOpen={setOpen} />
     <Hero/>
     </div>
+    {/* <Animation/> */}
+    <Animation2/>
     <AboutMe/>
     <Footer/>
   </main>

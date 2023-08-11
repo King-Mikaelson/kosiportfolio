@@ -16,6 +16,7 @@ module.exports = {
         sans: ['var(--font-nunito)'],
         serif: ['var(--font-public-sans)'],
         inter: ['var(--font-inter)'],
+        nunitoSans: ['var(--font-nunito-sans)'],
       },
     },
   },
