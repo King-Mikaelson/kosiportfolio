@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <main
-    className={`w-full  h-[100%]  ${nunito.className}`}>
+    className={`w-full  min-h-full  ${nunito.className}`}>
     <NavBar open={open} setOpen={setOpen} />
     <Hero/>
     <Animation/>

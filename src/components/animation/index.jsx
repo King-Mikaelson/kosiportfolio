@@ -72,20 +72,12 @@ function Animation() {
 
     let angle3 = getSineAngle(line5?.left - line4?.left, length3)
 
-    // console.log(length, angle)
-    // console.log(length1, angle1)
-    // console.log(length2, angle2)
-    // console.log(length3, angle3)
+
     setLine1Specs({length, angle})
     setLine2Specs({length:length1, angle:angle1})
     setLine3Specs({length:length2, angle:angle2})
     setLine4Specs({length:length3, angle:angle3})
   
-    //  console.log(line1);
-    //  console.log(line2);
-    //  console.log(line3);
-    //  console.log(line4);
-    //  console.log(line5);
   }, [windowWidth])
 
   useEffect(() => {
@@ -100,7 +92,6 @@ function Animation() {
   useEffect(() => {
     // Add JavaScript to update the --tiltX and --tiltY custom properties based on mouse movement
     const container = document.querySelector(".tilted_container");
-    console.log(container);
     container?.addEventListener("mousemove", (event) => {
       const boundingRect = container.getBoundingClientRect();
       const offsetX = event.clientX - boundingRect.left;

@@ -22,6 +22,10 @@
   padding: 0;
 }
 
+body,html{
+  height: 100%;
+}
+
 .container {
   /* background-color: red;  */
   background:url("/projects.png");
@@ -74,7 +78,7 @@
 
 
 
-.tilted_container:hover .tilted_element {
+.tilted_element:hover {
     transform: translate(-50%, -50%) rotateX(calc(var(--tiltY) * -1)) rotateY(var(--tiltX));
   }
 
@@ -262,4 +266,41 @@ svg.vector {
   left: 100%;
   transform-origin: left center;
   transform: rotate(304deg);
+}
+
+
+@keyframes fadeInOut{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+}
+
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+  
+}
+
+.animateOpacity{
+  animation: fadeInOut 6s linear infinite;
+}
+
+
+.animateOpacity1{
+  animation: fadeIn 5s ease-in infinite;
 }

@@ -1,13 +1,18 @@
 import Logo from "../../../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
-import {AiOutlineCopyrightCircle} from "react-icons/ai";
 import {FiGithub, FiTwitter} from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 2500 });
+  }, []);
   return (
     <main id="contact" className="z-[20] mt-10 mb-auto bg-[url('/Footer(1).png')] md:bg-[url('/Footer.png')] bg-cover bg-no-repeat bg-center  text-white py-10 lg:py-16 lg:px-6 xl:px-36 px-4 mx-0 w-full self-end  border-t lg:border-t-0">
       <Image
@@ -17,7 +22,7 @@ function Footer() {
             priority={true}
           />
       <div className="flex flex-col md:flex-row md:justify-between lg:items-center gap-5 ">
-       <div className=" md:order-1 order-4 flex justify-center flex-col gap-5 md:self-start">
+       <div data-aos="fade-right" className=" md:order-1 order-4 flex justify-center flex-col gap-5 md:self-start">
        <Image
             src={Logo}
             alt="logo"
@@ -47,7 +52,7 @@ function Footer() {
         
       
 
-        <div className="flex flex-col gap-3  font-inter  md:order-2 order-2">
+        <div data-aos="fade-left" className="flex flex-col gap-3  font-inter  md:order-2 order-2">
         <h3 className="font-sans text-[#FEFEFE] text-base md:text-2xl font-bold py-2 md:py-0">Home page</h3>
         <div className="flex md:flex-col gap-3 py-2 md:py-0">
         <div className="flex gap-3">
