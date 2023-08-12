@@ -17,7 +17,7 @@ function AboutMe() {
         </div>
 
 
-        <div data-aos="fade-left" className="justify-between flex flex-col md:py-10 py-6 gap-6">
+        <div  className="justify-between flex flex-col md:py-10 py-6 gap-6">
           <p className="text-[#040722] text-2xl md:text-[2.5rem] font-bold font-sans leading-snug">
             “Man shall not live by bread alone, but by the codes that proceeds
             from his fingers and keyboard...”
@@ -34,7 +34,7 @@ function AboutMe() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between divide-solid md:divide-x divide-[#040722] gap-12">
-        <aside data-aos="fade-up" className="md:w-3/5 font-sans font-medium text-[#040722] text-base">
+        <aside  className="md:w-3/5 font-sans font-medium text-[#040722] text-base">
           Talking about myself here because if I don’t, who will? Talk about
           every thing you are okay with letting everyone know. Could sprinkle
           childhood tales and anything that sparks you imagination... blah blah
@@ -49,7 +49,7 @@ function AboutMe() {
           childhood tales and anything that sparks you imagination... blah blah
           blahTalking about myself here because if I don’t, who will? Talk{" "}
         </aside>
-        <ul data-aos="fade-down" className="md:w-2/5 flex flex-col md:py-6 px-4 md:px-20 list-disc font-sans font-medium text-[#040722] text-base">
+        <ul  className="md:w-2/5 flex flex-col md:py-6 px-4 md:px-20 list-disc font-sans font-medium text-[#040722] text-base">
           <li>Music I listen to</li>
           <li>where you traveled to</li>
           <li>puzzle quiz?</li>
