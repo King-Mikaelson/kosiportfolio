@@ -20,6 +20,8 @@ function Footer() {
             alt="logo"
             className=" block md:hidden mb-5 w-[3.75rem] h-[1.5rem]"
             priority={true}
+            data-aos="fade-right"
+
           />
       <div className="flex flex-col md:flex-row md:justify-between lg:items-center gap-5 ">
        <div  className=" md:order-1 order-4 flex justify-center flex-col gap-5 md:self-start">
@@ -28,13 +30,15 @@ function Footer() {
             alt="logo"
             className=" w-[ 6.875rem] h-[2.75rem] hidden md:block"
             priority={true}
+            data-aos="fade-right"
           />
-          <div className="flex gap-1 ">
+          <div  
+            className="flex gap-1 ">
             <p className="font-inter text-[#FEFEFE] text-lg font-normal">Email: </p>
             <p className="underline text-[rgba(145,146,148,1)] font-inter  text-lg font-normal">nzeaokosi7@gmail.com </p>
           </div>
 
-          <div className="flex items-center justify-between  md:gap-5">
+          <div  className="flex items-center justify-between  md:gap-5">
           <Link  href={"/"}>
         <FiGithub size={20}  className="inline-block  cursor-pointer" />
         </Link>
@@ -52,7 +56,7 @@ function Footer() {
         
       
 
-        <div  className="flex flex-col gap-3  font-inter  md:order-2 order-2">
+        <div data-aos="fade-up" className="flex flex-col gap-3  font-inter  md:order-2 order-2">
         <h3 className="font-sans text-[#FEFEFE] text-base md:text-2xl font-bold py-2 md:py-0">Home page</h3>
         <div className="flex md:flex-col gap-3 py-2 md:py-0">
         <div className="flex gap-3">
