@@ -7,7 +7,7 @@ import { useEffect } from "react";
 function AboutMe() {
 
   useEffect(() => {
-    Aos.init({ duration: 2500 });
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <main id="about" className=" w-full py-10 lg:py-16 lg:px-6 xl:px-28 px-4 flex flex-col gap-10 md:gap-20 ">
@@ -28,7 +28,7 @@ function AboutMe() {
           </p>
         </div>
 
-        <div className="w-full flex  md:hidden items-center">
+        <div data-aos="fade-down" className="w-full flex  md:hidden items-center">
           <Image src={kosiImg} alt="kosi" className="object-contain w-full" />
         </div>
       </div>

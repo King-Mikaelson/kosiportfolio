@@ -34,34 +34,32 @@ body,html{
     background-size: cover;
   /* height: 100vh;  */
   /* padding: 12rem 0; */
-  max-width: 100%;
-  position: relative;
+    max-width: 100%;
+    overflow: hidden;
 }
 
   .tilted_container {
     width: 100%;
     height: 100%;
-    perspective: 1000px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: relative; */
   }
 
 
 
 .tilted_element {
-    /* position: absolute; */
     width: 100%; 
-    height: 100%; 
-    background-color: transparent;
+    height: 800px; 
     color: white;
     line-height: 100px;
     font-size: 20px;
     font-weight: bold;
-    transform-origin: center;
+    /* transform-origin: center;
     transform: translate(-50%, -50%) rotateX(0deg) rotateY(0deg);
-    transition: transform 0.3s ease-out; 
+    transition: transform 0.3s ease-out;  */
+    
   }
 
 .tilted_element:nth-child(1) {
@@ -69,18 +67,23 @@ body,html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* position: relative;
     top: 400px;
     left: 50%;
-    right: 50%;
-    width: 100%;
+    width: 100%; */
     height: 800px;
   }
 
 
 
-.tilted_element:hover {
+/* .tilted_element:hover {
     transform: translate(-50%, -50%) rotateX(calc(var(--tiltY) * -1)) rotateY(var(--tiltX));
-  }
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    width: 100%;
+    height: 800px;
+} */
 
 
 
@@ -273,8 +276,8 @@ svg.vector {
   0%{
     opacity: 0;
   }
-  50%{
-    opacity: 1;
+  25%{
+    opacity: 0.25;
   }
   100%{
     opacity: 0;
@@ -287,8 +290,8 @@ svg.vector {
   0%{
     opacity: 0;
   }
-  50%{
-    opacity: 1;
+  25%{
+    opacity: 0.25;
   }
   100%{
     opacity: 0;
@@ -300,7 +303,17 @@ svg.vector {
   animation: fadeInOut 6s linear infinite;
 }
 
+.animateOpacity:hover{
+  animation-play-state: paused;
+  opacity: 0.25;
+}
+
 
 .animateOpacity1{
   animation: fadeIn 5s ease-in infinite;
+}
+
+.animateOpacity1:hover{
+  animation-play-state: paused;
+  opacity: 0.25;
 }
