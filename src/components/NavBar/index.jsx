@@ -124,7 +124,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Logo from "../../../public/logo.png";
-import mobileLogo from "../../../public/logo.png";
+import mobileLogo from "../../../public/activeLogo.png";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
@@ -193,7 +193,7 @@ const Navbar = ({ open, setOpen }) => {
           <Image
             src={Logo}
             alt="logo"
-            className=" md:w-[6.875rem] md:h-[2.75rem] w-[3.75rem] h-[1.5rem] object-contain"
+            className="md:w-[6.875rem] md:h-[2.75rem] w-[3.75rem] h-[1.5rem] object-contain"
           />
         </div>
         <Bars3Icon
@@ -229,7 +229,11 @@ const Navbar = ({ open, setOpen }) => {
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">
-                <h1 className="text-lg text-black">Portfolio</h1>
+              <Image
+            src={mobileLogo}
+            alt="logo"
+            className=" w-[3.75rem] h-[1.5rem] object-contain"
+          />
                 <p
                   className="cursor-pointer text-md text-black"
                   onClick={toggleMenu}
