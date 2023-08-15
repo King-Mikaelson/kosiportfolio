@@ -674,9 +674,7 @@ function Animation() {
       </section>
   </main>
 
-
-
-  <section id="projects" className="relative block lg:hidden bg-[url('/Projects(1).png')] bg-center bg-cover bg-no-repeat">
+  <main id="project" className="relative block lg:hidden bg-[url('/Projects(1).png')] bg-center bg-cover bg-no-repeat">
         <div className="w-full py-10 lg:pt-16 lg:pb-56 lg:px-6 xl:px-32 px-4 relative">
 
           <h1 className="text-[rgba(254,254,254,1.00)] font-sans  font-bold text-[1.5rem] pt-2 pb-4">
@@ -774,10 +772,8 @@ function Animation() {
               
             </div>         
           </div>
-      </section>
+  </main>
 
-
-  
   </>
 
 

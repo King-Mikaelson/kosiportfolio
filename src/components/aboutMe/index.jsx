@@ -32,7 +32,7 @@ function AboutMe() {
       </div>
         </div>
 
-        <div data-aos="fade-down" className="w-full md:w-1/2 flex  lg:hidden items-center justify-center">
+        <div data-aos="fade-down" className="w-full md:w-1/2 flex lg:hidden items-center justify-center">
           <Image src={kosiImg} alt="kosi" className="object-contain w-full md:object-fill" />
         </div>
       </div>
