@@ -41,7 +41,7 @@ function Hero() {
           <div className="text-[rgba(254,254,254,1.00)] lg:text-2xl text-sm md:text-base border border-solid rounded border-[rgba(254,254,254,1.00)] py-3 w-fit px-6 whitespace-nowrap pointer">
             <button>
               <Link href="#about" className="font-nunitoSans font-semibold">
-                Learn more about me and what I do{" "}
+                Learn more about me and what I do
               </Link>
             </button>
           </div>
