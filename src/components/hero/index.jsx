@@ -19,7 +19,7 @@ function Hero() {
       </div>
         <div  data-aos="fade-right" className="flex gap-8 flex-col self-center w-full relative">
         <div className="flex gap-2 flex-col">
-        <h1 className="text-[#FFF] font-normal font-nunitoSans md:text-2xl text-base">Hi, I am a </h1>
+        <h1 className="text-[#FFF] font-normal font-nunitoSans md:text-2xl text-base">Hi, I'm Kosi Nzeako, a </h1>
         <p className="text-[#FFF] font-nunitoSans z-50  font-extrabold text-[rgba(254,254,254,1.00)] text-[2rem] lg:text-5xl  xl:text-[4.625rem]  md:whitespace-nowrap w-[8ch] md:w-full">PLATFORM ENGINEER.</p>
         <p className="text-[#FFF] font-nunitoSans text-xs font-light md:font-normal lg:text-2xl md:text-base lg:w-[35ch] xl:w-[50ch] w-[30ch]">I build and merge standard system infrastructure and tech solutions for engineering teams to work optimally.</p>
         </div>
@@ -42,7 +42,7 @@ function Hero() {
         <div className="animateOpacity hidden md:block absolute top-24 right-[65%]  lg:w-[30ch] z-0 opacity-25 hover:opacity-50 hover:animate-none">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif font-light">def __init__(self, input_file, cache_index=True):		if isinstance(input_file, basestring):			self.source_file = open(input_file,'rb')			filename = input_file</p>
         </div>
-         <Image src="/Kosihero.png" alt="hero" priority width={900} height={900} className="max-w-full lg:w-[34.55031rem] lg:h-[46.25rem] 2xl:w-full  2xl:h-full " />
+         <Image src="/Kosihero.png" alt="hero" priority width={900} height={900} className="max-w-full lg:w-[34.55031rem] lg:h-[46.25rem] 2xl:w-full  2xl:h-full" />
         </div>
         <div  className="animateOpacity1 absolute bottom-4 left-20 md:left-auto md:bottom-4 md:right-1/2 z-0 opacity-25 hover:opacity-50 hover:animate-none lg:w-[25ch]">
         <p className="text-[0.75rem] text-[#A59F9F] font-serif font-light">
